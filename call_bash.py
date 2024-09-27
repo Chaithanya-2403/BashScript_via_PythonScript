@@ -2,7 +2,7 @@ import subprocess
 import sys
 
 def call_bash_script(args):
-    # Call the bash script with the provided arguments
+    # Call the bash script with the provided arguments 
     result = subprocess.run(['./call_dotnet.sh'] + args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
     # Print the output from the bash script (and .NET app)

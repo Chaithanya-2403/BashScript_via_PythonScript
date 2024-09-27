@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if any arguments are passed
+# Check if any arguments are passed 
 if [ $# -eq 0 ]; then
     echo "No arguments provided to bash script."
     exit 1
